@@ -1,5 +1,5 @@
 <?php
-$server = "bcd-teste.mysql.database.azure.com";
+$server = "bcdestacionamento.mysql.database.azure.com";
 $user = "jaquelineadmin1";
 $password = "S#nai@1151";
 $dbname = "estacionamento";
