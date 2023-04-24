@@ -1,7 +1,7 @@
 <?php
-$server = "jaqueestacionamento-server.mysql.database.azure.com";
-$user = "kkqulkkwrx";
-$password = "5310WA01Y5G5VM0W$";
-$dbname = "jaqueestacionamento-database";
+$server = "bcd-teste.mysql.database.azure.com";
+$user = "jaquelineadmin1";
+$password = "S#nai@1151";
+$dbname = "estacionamento";
 $con = mysqli_connect($server, $user, $password, $dbname);
 ?>
