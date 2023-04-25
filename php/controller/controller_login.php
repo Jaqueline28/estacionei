@@ -2,8 +2,8 @@
     session_start();
     include_once('../conexao.php');
 
-    $email = filter_input(INPUT_POST,'usu',FILTER_SANITIZE_EMAIL);
-    $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_STRING);
+    $email = filter_input(INPUT_GET,'usu',FILTER_SANITIZE_EMAIL);
+    $senha = filter_input(INPUT_GET, 'senha', FILTER_SANITIZE_STRING);
     // $senha = base64_encode($senha);
 
     $query = "SELECT * FROM usuarios WHERE email='$email' AND senha='".base64_encode($senha)."'";
