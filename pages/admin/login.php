@@ -69,7 +69,7 @@
                     <div class="col s12 m8 offset-m2 l8 offset-l2 xl6 offset-xl3 z-depth-5 cor-box">
                         
                             <!-- <h5 class="center-align">Login</h5> -->
-                            <form class="col m12 s12 xl12 l12" action="../../php/controller/controller_login.php" method="get">
+                            <form class="col m12 s12 xl12 l12" action="/estacionei/php/controller/controller_login.php" method="post">
                                 <br>    
                                 <h5 style="color: #70D44B;" class="center-align flow-text">Login</h5><br>
                                 <?php 
