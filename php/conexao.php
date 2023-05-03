@@ -1,5 +1,5 @@
 <?php
-$server = "bcd-estacionamento.mysql.database.azure.com";
+$server = "dbserverjaqueline.mysql.database.azure.com";
 $user = "admin1";
 $password = "S#nai@115";
 $dbname = "estacionamento";
